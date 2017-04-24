@@ -4,10 +4,17 @@ def spellenchant(user):
     d = enchant.Dict("en_US")
     chkr = SpellChecker("en_US")
     chkr.set_text(user)
+    abc=[]
+    z=[]
     for err in chkr:
-	    abc = []
-	    abc.append(err.word)
-	    print(abc)
-	    z=d.suggest(abc[0])
-	    print(z)
+            abc.append(err.word)
+            print(abc)
+            print(len(abc))
+    length = len(abc)
+    print(abc)
+    print(length)
+    for i in range(length):
+        abcd=d.suggest(abc[i])
+        z.append(abcd)
+    print(z)
     return z
