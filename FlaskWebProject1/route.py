@@ -26,9 +26,9 @@ def spell1():
     user = request.values.get('param')
     print(user)
     enchantoutput=enchantspell.spellenchant(user)
-    norvigoutput = spell_corrector.abcde(user)
+    #norvigoutput = spell_corrector.abcde(user)
     #test1(user)
-    return render_template("spelloutput.html",user = norvigoutput,sugg=enchantoutput)
+    return render_template("spelloutput.html",sugg=enchantoutput)
 
 @app.route("/tone")
 def tone():
