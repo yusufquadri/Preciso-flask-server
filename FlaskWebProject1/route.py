@@ -6,6 +6,7 @@ from flask.templating import render_template
 import basic_sentiment_analysis 
 import spell_corrector
 import enchantspell
+import summarization123
 @app.route('/')
 def temp():
     user = "yusuf"
@@ -25,10 +26,16 @@ def spell1():
     global user
     user = request.values.get('param')
     print(user)
+    wrongwords=enchantspell.wrongwords(user)
     enchantoutput=enchantspell.spellenchant(user)
-    #norvigoutput = spell_corrector.abcde(user)
+    if len(wrongwords)==0:
+        nomistake = "NO errors "
+        return render_template("spelloutput.html",sugg1=nomistake)
+   # norvigoutput = spell_corrector.abcde(user)
     #test1(user)
-    return render_template("spelloutput.html",sugg=enchantoutput)
+    else:
+        display = "you could choose from the list below "
+        return render_template("spelloutput.html",sugg=enchantoutput,wrongwords=wrongwords,display=display)
 
 @app.route("/tone")
 def tone():
@@ -41,6 +48,15 @@ def tone1():
     toneoutput = basic_sentiment_analysis.abcd(textvar)
     return render_template("toneoutput.html",user = toneoutput)
 
+@app.route('/summarization')
+def summarization():
+    return render_template("summarization.html")
+
+@app.route('/summarization1',methods =['POST'])
+def summarization1():
+    summvar="'''" + request.values.get('param') + "'''"
+    summoutput=summarization123.summarization(summvar)
+    return render_template("summoutput.html",summoutput=summoutput)
 #@app.route('/tryspell')
 #def tryspell():
    # word = "'" + user +"'"

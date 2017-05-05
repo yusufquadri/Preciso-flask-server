@@ -18,3 +18,12 @@ def spellenchant(user):
         z.append(abcd)
     print(z)
     return z
+
+def wrongwords(text):
+    d = enchant.Dict("en_US")
+    chkr = SpellChecker("en_US")
+    chkr.set_text(text)
+    listofwrongwords=[]
+    for err in chkr:
+            listofwrongwords.append(err.word)
+    return listofwrongwords

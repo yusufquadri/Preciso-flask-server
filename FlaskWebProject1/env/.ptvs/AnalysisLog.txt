@@ -5784,3 +5784,53 @@ E:\VIsual studio\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio
 2017-04-21T00:56:39: Saving group "C:\Users\mohdyusuf\Documents\Visual Studio 2015\Projects\FlaskWebProject1\FlaskWebProject1\env\Lib\site-packages\yaml"
 2017-04-21T00:56:40: End of group "C:\Users\mohdyusuf\Documents\Visual Studio 2015\Projects\FlaskWebProject1\FlaskWebProject1\env\Lib\site-packages\yaml"
 2017-04-21T00:56:44: Deleting 0 files
+
+2017-05-02T00:57:06: Start analysis
+2017-05-02T00:57:06: [WARNING] Library was set explicitly - skipping path detection
+2017-05-02T00:57:06: IncludeModulesFromModulePath = win32com
+2017-05-02T00:57:07: Deleting 0 files
+2017-05-02T00:57:07: astropy.CallDepth = 0
+2017-05-02T00:57:07: matplotlib.CallDepth = 3
+2017-05-02T00:57:07: pandas.CallDepth = 0
+2017-05-02T00:57:07: sympy.CallDepth = 0
+2017-05-02T00:57:07: Start group "C:\Users\mohdyusuf\Documents\Visual Studio 2015\Projects\FlaskWebProject1\FlaskWebProject1\env\Lib\site-packages\bs4" with 17 files
+2017-05-02T00:57:08: Parsing "bs4.dammit" ("C:\Users\mohdyusuf\Documents\Visual Studio 2015\Projects\FlaskWebProject1\FlaskWebProject1\env\Lib\site-packages\bs4\dammit.py")
+2017-05-02T00:57:08: Parsing "bs4.diagnose" ("C:\Users\mohdyusuf\Documents\Visual Studio 2015\Projects\FlaskWebProject1\FlaskWebProject1\env\Lib\site-packages\bs4\diagnose.py")
+2017-05-02T00:57:08: Parsing "bs4.element" ("C:\Users\mohdyusuf\Documents\Visual Studio 2015\Projects\FlaskWebProject1\FlaskWebProject1\env\Lib\site-packages\bs4\element.py")
+2017-05-02T00:57:08: Parsing "bs4.testing" ("C:\Users\mohdyusuf\Documents\Visual Studio 2015\Projects\FlaskWebProject1\FlaskWebProject1\env\Lib\site-packages\bs4\testing.py")
+2017-05-02T00:57:08: Parsing "bs4" ("C:\Users\mohdyusuf\Documents\Visual Studio 2015\Projects\FlaskWebProject1\FlaskWebProject1\env\Lib\site-packages\bs4\__init__.py")
+2017-05-02T00:57:08: Parsing "bs4.builder._html5lib" ("C:\Users\mohdyusuf\Documents\Visual Studio 2015\Projects\FlaskWebProject1\FlaskWebProject1\env\Lib\site-packages\bs4\builder\_html5lib.py")
+2017-05-02T00:57:08: Parsing "bs4.builder._htmlparser" ("C:\Users\mohdyusuf\Documents\Visual Studio 2015\Projects\FlaskWebProject1\FlaskWebProject1\env\Lib\site-packages\bs4\builder\_htmlparser.py")
+2017-05-02T00:57:08: Parsing "bs4.builder._lxml" ("C:\Users\mohdyusuf\Documents\Visual Studio 2015\Projects\FlaskWebProject1\FlaskWebProject1\env\Lib\site-packages\bs4\builder\_lxml.py")
+2017-05-02T00:57:08: Parsing "bs4.builder" ("C:\Users\mohdyusuf\Documents\Visual Studio 2015\Projects\FlaskWebProject1\FlaskWebProject1\env\Lib\site-packages\bs4\builder\__init__.py")
+2017-05-02T00:57:08: Parsing "bs4.tests.test_builder_registry" ("C:\Users\mohdyusuf\Documents\Visual Studio 2015\Projects\FlaskWebProject1\FlaskWebProject1\env\Lib\site-packages\bs4\tests\test_builder_registry.py")
+2017-05-02T00:57:08: Parsing "bs4.tests.test_docs" ("C:\Users\mohdyusuf\Documents\Visual Studio 2015\Projects\FlaskWebProject1\FlaskWebProject1\env\Lib\site-packages\bs4\tests\test_docs.py")
+2017-05-02T00:57:08: Parsing "bs4.tests.test_html5lib" ("C:\Users\mohdyusuf\Documents\Visual Studio 2015\Projects\FlaskWebProject1\FlaskWebProject1\env\Lib\site-packages\bs4\tests\test_html5lib.py")
+2017-05-02T00:57:08: Parsing "bs4.tests.test_htmlparser" ("C:\Users\mohdyusuf\Documents\Visual Studio 2015\Projects\FlaskWebProject1\FlaskWebProject1\env\Lib\site-packages\bs4\tests\test_htmlparser.py")
+2017-05-02T00:57:08: Parsing "bs4.tests.test_lxml" ("C:\Users\mohdyusuf\Documents\Visual Studio 2015\Projects\FlaskWebProject1\FlaskWebProject1\env\Lib\site-packages\bs4\tests\test_lxml.py")
+2017-05-02T00:57:08: Parsing "bs4.tests.test_soup" ("C:\Users\mohdyusuf\Documents\Visual Studio 2015\Projects\FlaskWebProject1\FlaskWebProject1\env\Lib\site-packages\bs4\tests\test_soup.py")
+2017-05-02T00:57:08: Parsing "bs4.tests.test_tree" ("C:\Users\mohdyusuf\Documents\Visual Studio 2015\Projects\FlaskWebProject1\FlaskWebProject1\env\Lib\site-packages\bs4\tests\test_tree.py")
+2017-05-02T00:57:08: Parsing "bs4.tests" ("C:\Users\mohdyusuf\Documents\Visual Studio 2015\Projects\FlaskWebProject1\FlaskWebProject1\env\Lib\site-packages\bs4\tests\__init__.py")
+2017-05-02T00:57:08: Parsing complete
+2017-05-02T00:57:08: Analyzing "bs4.dammit"
+2017-05-02T00:57:08: Analyzing "bs4.diagnose"
+2017-05-02T00:57:08: Analyzing "bs4.element"
+2017-05-02T00:57:08: Analyzing "bs4.testing"
+2017-05-02T00:57:08: Analyzing "bs4"
+2017-05-02T00:57:08: Analyzing "bs4.builder._html5lib"
+2017-05-02T00:57:08: Analyzing "bs4.builder._htmlparser"
+2017-05-02T00:57:08: Analyzing "bs4.builder._lxml"
+2017-05-02T00:57:08: Analyzing "bs4.builder"
+2017-05-02T00:57:08: Analyzing "bs4.tests.test_builder_registry"
+2017-05-02T00:57:08: Analyzing "bs4.tests.test_docs"
+2017-05-02T00:57:08: Analyzing "bs4.tests.test_html5lib"
+2017-05-02T00:57:08: Analyzing "bs4.tests.test_htmlparser"
+2017-05-02T00:57:08: Analyzing "bs4.tests.test_lxml"
+2017-05-02T00:57:08: Analyzing "bs4.tests.test_soup"
+2017-05-02T00:57:08: Analyzing "bs4.tests.test_tree"
+2017-05-02T00:57:08: Analyzing "bs4.tests"
+2017-05-02T00:57:08: Starting analysis of 17 modules
+2017-05-02T00:57:18: Analysis complete
+2017-05-02T00:57:18: Saving group "C:\Users\mohdyusuf\Documents\Visual Studio 2015\Projects\FlaskWebProject1\FlaskWebProject1\env\Lib\site-packages\bs4"
+2017-05-02T00:57:18: End of group "C:\Users\mohdyusuf\Documents\Visual Studio 2015\Projects\FlaskWebProject1\FlaskWebProject1\env\Lib\site-packages\bs4"
+2017-05-02T00:57:19: Deleting 0 files
