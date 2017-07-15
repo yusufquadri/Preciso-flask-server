@@ -1,10 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-basic_sentiment_analysis
-~~~~~~~~~~~~~~~~~~~~~~~~
-This module contains the code and examples described in 
-http://fjavieralba.com/basic-sentiment-analysis-with-python.html
-"""
+
 
 from pprint import pprint
 import nltk
